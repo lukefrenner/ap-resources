@@ -1,0 +1,54 @@
+.form_overall {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
+    .form_overall {
+        flex-direction: column;
+    }
+}
+
+.form_data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-top: 80px;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.message {
+    height: 200px;
+}
+
+.text h1 {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.text p {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.result {
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 10%;
+    width: 200px;
+
+}
+
+.form_and_submit {
+    display: flex;
+    flex-direction: column;
+}
